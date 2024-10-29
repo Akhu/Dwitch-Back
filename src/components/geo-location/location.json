@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_geo_location_locations",
+  "info": {
+    "displayName": "Location",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "latitude": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    }
+  }
+}

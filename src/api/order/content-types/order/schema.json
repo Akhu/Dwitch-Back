@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Order"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ingredients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::ingredient.ingredient"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "placedAt": {
+      "type": "datetime"
+    },
+    "receivedAt": {
+      "type": "datetime"
+    },
+    "cookMessage": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "progress": {
+      "type": "integer"
+    }
+  }
+}

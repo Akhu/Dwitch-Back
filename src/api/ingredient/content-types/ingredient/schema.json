@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ingredients",
+  "info": {
+    "singularName": "ingredient",
+    "pluralName": "ingredients",
+    "displayName": "Ingredient",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "illustration": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    },
+    "isVegan": {
+      "type": "boolean"
+    },
+    "isSpicy": {
+      "type": "boolean"
+    },
+    "Kind": {
+      "type": "enumeration",
+      "enum": [
+        "topping",
+        "sauce",
+        "main",
+        "bread"
+      ]
+    }
+  }
+}
