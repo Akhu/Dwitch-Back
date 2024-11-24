@@ -26,7 +26,7 @@
         "audios"
       ]
     },
-    "Description": {
+    "description": {
       "type": "text"
     },
     "isVegan": {
@@ -35,7 +35,7 @@
     "isSpicy": {
       "type": "boolean"
     },
-    "Kind": {
+    "kind": {
       "type": "enumeration",
       "enum": [
         "topping",

@@ -69,11 +69,6 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::order.order"
-    },
-    "favoriteStore": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::store.store"
     }
   }
 }
