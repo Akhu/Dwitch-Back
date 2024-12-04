@@ -32,10 +32,12 @@
       "type": "text"
     },
     "price": {
-      "type": "decimal"
+      "type": "decimal",
+      "default": 0
     },
     "progress": {
-      "type": "integer"
+      "type": "integer",
+      "default": 0
     },
     "store": {
       "type": "relation",
